@@ -1,59 +1,149 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio – Amira Djidjeli</title>
+  <title>Amira DJIDJELI | Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
 
-  <h1>Amira Djidjeli</h1>
-  <p>Étudiante en informatique, data et intelligence artificielle</p>
+<body class="is-preload">
 
-  <h2>À propos de moi</h2>
-  <p>
-    Je suis étudiante en informatique avec un intérêt pour l’analyse de données
-    et l’intelligence artificielle. J’aime apprendre à travers des projets pratiques
-    et développer mes compétences techniques.
-  </p>
+<!-- HEADER -->
+<section id="header">
+  <header class="major">
+    <h1>Amira DJIDJELI</h1>
+    <p>Étudiante en science des données appliquée</p>
+  </header>
 
-  <h2>Compétences</h2>
-  <ul>
-    <li>Administration et securites des reseaux </li>
-    <li>Python</li>
-    <li>Jupyter Notebook</li>
-    <li>Power BI</li>
-    <li>Machine Learning</li>
-    <li>Analyse de données</li>
-    <li>Nettoyage des donnees</li>
-    <li>Java / JavaFX</li>
-    <li>SQL / MySQL</li>
-    <li>Git & GitHub</li>
-  </ul>
+  <div class="container">
+    <ul class="actions special">
+      <li><a href="#projects" class="button primary scrolly">Voir mes projets</a></li>
+    </ul>
+  </div>
+</section>
 
-  <h2>Projets</h2>
-  <ul>
-     <li> 
-      <strong>  Mise en place de la norme de securite</strong><br>
-     Mise en place de la norme de 802.1X pour sécuriser les ports réseau et renforcer la sécurité informatiqu
-    </li>
-    <li> 
-      <strong>Détection de la pneumonie à partir des images X-ray</strong><br>
-      Classification binaire (Pneumonie / Normal) avec des réseaux de neurones convolutifs (CNN).
-    </li>
-    
-    <li>
-      <strong>Application JavaFX de gestion d’hôtel</strong><br>
-      Gestion des chambres, clients et réservations avec base de données MySQL.
-    </li>
-  <li>
-      <strong>Projet Analyse des données  </strong><br> 
- Analyser la relation entre le plus haut diplôme obtenu et le revenu moyen, par sexe et province. 
+<!-- ABOUT -->
+<section id="about" class="main special">
+  <div class="container">
+    <span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+    <div class="content">
+      <header class="major">
+        <h2>À propos de moi</h2>
+      </header>
+      <p>
+        Étudiante en science des données appliquée, diplômée en réseaux et sécurité.
+        Passionnée par l’analyse de données, la visualisation et le machine learning.
+      </p>
+    </div>
+    <a href="#skills" class="goto-next scrolly">Next</a>
+  </div>
+</section>
 
-    </li>
-  </ul>
-  <h2>Contact</h2>
-  <p>Email : amira99dj@email.com</p>
-  <p>GitHub : <a href="https://github.com/amiradijdjeli">github.com/amiradijdjeli</a></p>
+<!-- SKILLS -->
+<section id="skills" class="main special">
+  <div class="container">
+    <span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+    <div class="content">
+      <header class="major">
+        <h2>Compétences</h2>
+      </header>
+
+      <ul class="icons-grid">
+        <li>
+          <span class="icon solid major fa-chart-line"></span>
+          <h3>Analyse de données</h3>
+          <p>EDA, statistiques</p>
+        </li>
+        <li>
+          <span class="icon solid major fa-chart-bar"></span>
+          <h3>Visualisation</h3>
+          <p>Power BI</p>
+        </li>
+        <li>
+          <span class="icon solid major fa-robot"></span>
+          <h3>Machine Learning</h3>
+          <p>CNN, classification</p>
+        </li>
+        <li>
+          <span class="icon solid major fa-laptop-code"></span>
+          <h3>Outils</h3>
+          <p>Python, Jupyter, GitHub</p>
+        </li>
+      </ul>
+    </div>
+    <a href="#projects" class="goto-next scrolly">Next</a>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="main special">
+  <div class="container">
+    <div class="content">
+      <header class="major">
+        <h2>PROJETS</h2>
+      </header>
+
+      <p>Cliquez sur l’image pour voir tous les projets réalisés.</p>
+
+      <!-- IMAGE CLIQUABLE -->
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="projects.html">
+          <img
+            src="images/Nouveau-Document-Microsoft-Word.jpeg"
+            alt="Voir mes projets"
+            style="
+              width:100%;
+              max-width:900px;
+              border-radius:12px;
+              box-shadow:0 10px 25px rgba(0,0,0,0.15);
+              cursor:pointer;
+            "
+          />
+        </a>
+      </div>
+    </div>
+    <a href="#footer" class="goto-next scrolly">Next</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<section id="footer">
+  <div class="container">
+    <header class="major">
+      <h2>Contact</h2>
+    </header>
+
+    <ul class="icons">
+      <li>
+        <a href="https://www.linkedin.com/in/amira-djidjeli-5143382b3/"
+           class="icon brands alt fa-linkedin-in" target="_blank">
+          <span class="label">LinkedIn</span>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/amiradjidjeli"
+           class="icon brands alt fa-github" target="_blank">
+          <span class="label">GitHub</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- COPYRIGHT SANS POINTS NI DESIGN -->
+    <ul class="copyright" style="list-style:none; padding-left:0;">
+      <li>© 2026 Amira DJIDJELI</li>
+    </ul>
+  </div>
+</section>
+
+<!-- SCRIPTS -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
 </html>
